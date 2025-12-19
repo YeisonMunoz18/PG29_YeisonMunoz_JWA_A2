@@ -7,7 +7,7 @@ body {
 
 header, footer {
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 main {
@@ -21,6 +21,4 @@ canvas {
     background-color: #a7ffeb;
     border: 2px solid #004d40;
     margin: 20px auto;
-    width: 800px;
-    height: 600px;
 }
