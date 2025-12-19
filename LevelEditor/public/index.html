@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>public</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Crazy Mad Flying Animals</h1>
+        <p>Cool game that's totally not ripped off :).</p>
+    </header>
+
+    <main>
+        <section id="left-panel">
+            <div class="panel">
+                <h2>Level Info</h2>
+                <label>
+                    Level ID:
+                    <input type="text" id="level-id" placeholder="999" />
+                </label>
+                <label>
+                    Element type:
+                    <select id="element-type">
+                        <option value="block">Block</option>
+                        <option value="catapult">Catapult</option>
+                        <option value="enemy">Enemy</option>
+                        <option value="bird">Bird</option>
+                        <option value="goal">Goal</option>
+                    </select>
+                </label>
+
+                <div class="button-row">
+                    <button id="save-level">Save</button>
+                    <button id="load-level">Load</button>
+                    <button id="delete-level" class="danger">Delete</button>
+                    <button id="add-block">Add Element</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="editor-panel">
+            <h2>Level Canvas</h2>
+            <div id="editor"></div>
+            <p class="hint">Right-click to delete a block. Drag blocks with your mouse.</p>
+        </section>
+        
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    display: block;
+    background-color: #a7ffeb;
+    border: 2px solid #004d40;
+    margin: 20px auto;
+}
